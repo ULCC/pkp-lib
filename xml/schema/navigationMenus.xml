@@ -83,12 +83,14 @@
 		<index name="navigation_menu_item_settings_navigation_menu_id">
 			<col>navigation_menu_item_id</col>
 		</index>
+<!--
 		<index name="navigation_menu_item_settings_pkey">
 			<col>navigation_menu_item_id</col>
 			<col>locale</col>
 			<col>setting_name</col>
 			<UNIQUE/>
 		</index>
+-->
 	</table>
 
 	<!--
@@ -139,11 +141,13 @@
 		<index name="assignment_settings_navigation_menu_item_assignment_id">
 			<col>navigation_menu_item_assignment_id</col>
 		</index>
+<!--
 		<index name="navigation_menu_item_assignment_settings_pkey">
 			<col>navigation_menu_item_assignment_id</col>
 			<col>locale</col>
 			<col>setting_name</col>
 			<UNIQUE/>
 		</index>
+-->
 	</table>
 </schema>

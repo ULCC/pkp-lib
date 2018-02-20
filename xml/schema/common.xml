@@ -216,10 +216,13 @@
 			<col>username</col>
 			<UNIQUE />
 		</index>
+
+<!--
 		<index name="users_email">
 			<col>email</col>
 			<UNIQUE />
 		</index>
+-->
 	</table>
 
 	<!--
@@ -254,14 +257,16 @@
 		<index name="user_settings_user_id">
 			<col>user_id</col>
 		</index>
+<!--
 		<index name="user_settings_pkey">
 			<col>user_id</col>
 			<col>locale</col>
-			<col>setting_name</col>
+			<col>setting_type</col> 
 			<col>assoc_type</col>
 			<col>assoc_id</col>
 			<UNIQUE />
 		</index>
+-->
 	</table>
 
 	<!--
@@ -601,7 +606,7 @@
 			<col>email_key</col>
 			<col>locale</col>
 			<col>assoc_type</col>
-			<col>assoc_id</col>
+			<col>assoc_id</col> 
 			<UNIQUE/>
 		</index>
 	</table>

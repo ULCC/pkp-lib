@@ -75,12 +75,14 @@
 			<descr>(bool|int|float|string|object)</descr>
 		</field>
 		<descr>User Group-specific settings</descr>
+<!--
 		<index name="user_group_settings_pkey">
 			<col>user_group_id</col>
 			<col>locale</col>
 			<col>setting_name</col>
 			<UNIQUE />
 		</index>
+-->
 	</table>
 
 	<!--

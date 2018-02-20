@@ -85,12 +85,14 @@
 		<index name="submission_file_settings_id">
 			<col>file_id</col>
 		</index>
+<!--
 		<index name="submission_file_settings_pkey">
 			<col>file_id</col>
 			<col>locale</col>
 			<col>setting_name</col>
 			<UNIQUE/>
 		</index>
+-->
 	</table>
 
 	<!--
